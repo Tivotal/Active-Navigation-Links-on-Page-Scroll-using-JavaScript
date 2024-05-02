@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar - JavaScript</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <ul class="nav">
+        <li class="active">
+          <a href="#home">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#search">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#notification">
+            <i class="fas fa-bell"></i>
+            <span>Notification</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#setting">
+            <i class="fas fa-gear"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#profile">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+
+        <div class="indicator"></div>
+      </ul>
+    </div>
+
+    <section id="home">Home</section>
+    <section id="search">Search</section>
+    <section id="notification">Notification</section>
+    <section id="setting">Settings</section>
+    <section id="profile">Profile</section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
